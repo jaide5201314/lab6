@@ -1,0 +1,84 @@
+body {
+	background-color: #cfe5e0;
+	font-family: "Verdana", "Arial", sans-serif;
+	margin: 0;
+}
+
+#headings {
+	width: 800px;
+	margin: 50px auto;
+	padding: 10px;
+	background-color: white;
+}
+
+#header {
+	background-color: #94d6d2;
+	padding: 10px;
+	text-align: right;
+	color: #3c9c99;
+}
+#header h1 {
+	font-weight: bold;
+	margin: 5px; 
+}
+#header h2 { 
+	font-weight: normal;
+	margin: 5px; 
+}
+
+#friends {
+	float: left; /*acc to help from w3schools: The float property specifies how an element should float within its container. It places an element on the left or right side of its container, allowing text and inline elements to wrap around it.*/
+	background-color: #37c5b7;
+	border: 5px solid #157776;
+	padding: 10px;
+	color: #19a197;
+	width: 200px;
+	margin-top: 10px;
+}
+#friends h2 {
+	font-weight: normal;
+	font-family: "Verdana", "Arial", sans-serif;
+
+}
+
+#friends ul {
+	padding-left: 30px;
+}
+#friends {
+	font-family: "Times New Roman", serif;
+	color: #c98f8f;
+}
+#friends .selected {
+	color: white;
+	font-weight: bold;
+}
+
+#entries {
+	margin-left: 270px;
+	margin-top: 10px;
+}
+
+.entry {
+	border: 5px solid #afcac9;
+	background-color: #cee0e0;
+	margin-bottom:15px;
+	padding: 10px;
+	overflow: auto;
+}
+.entry h2 {
+	font-weight: normal;
+	color: #7eb0ae;
+	margin: 0px 0px 10px 0px;
+}
+.date {
+	border-bottom: 3px dashed blue; /*works the same way as solid but dashed*/
+}
+.entry p {
+	color: #ac8053;
+	font-size: 15px;
+	text-align: justify;
+}
+img.right {
+	float: right;
+	margin-left: 10px;
+}
